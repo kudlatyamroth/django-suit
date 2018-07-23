@@ -46,4 +46,4 @@ gulp.task('watch', function () {
     gulp.watch(config.watchHtmlFiles).on('change', reload);
 });
 
-gulp.task('default', ['styles', 'watch']);
+gulp.task('default', gulp.series('styles', 'watch'));
