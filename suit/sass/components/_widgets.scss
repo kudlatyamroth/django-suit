@@ -88,7 +88,7 @@ fieldset {
       }
       $icon-width: 2rem;
       &[id^='calendarlink'], &[id^='clocklink'] {
-        padding: $input-padding-y 0.75rem;
+        padding: $input-btn-padding-y 0.75rem;
         position: absolute;
         left: -1px;
         z-index: 0;
@@ -416,9 +416,9 @@ fieldset {
   right: 1.25rem;
   margin-top: -1.15rem;
   font-size: 11px;
-  color: $gray-light;
+  color: $gray-600;
   a {
-    color: $gray-light;
+    color: $gray-600;
     &:hover, &:focus {
       color: #55acee;
       text-decoration: none;
