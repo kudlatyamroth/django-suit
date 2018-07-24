@@ -8,7 +8,7 @@ body.dashboard {
       caption {
         caption-side: inherit;
         font-weight: $headings-font-weight;
-        font-size: $font-size-h4;
+        font-size: $h4-font-size;
         padding: 0;
       }
       tr {
@@ -33,7 +33,7 @@ body.dashboard {
       display: none;
     }
     h3 {
-      font-size: $font-size-h4;
+      font-size: $h4-font-size;
     }
     ul.actionlist {
       @include reset-list();
@@ -81,19 +81,19 @@ body.dashboard {
   .addlink {
     &:before {
       content: $icon-plus;
-      color: $brand-success;
+      color: $success;
     }
   }
   .changelink {
     &:before {
       content: $icon-pencil;
-      color: $brand-warning;
+      color: $warning;
     }
   }
   .deletelink {
     &:before {
       content: $icon-remove;
-      color: $brand-danger;
+      color: $danger;
     }
   }
 }

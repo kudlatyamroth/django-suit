@@ -247,7 +247,7 @@ fieldset {
         }
         &.today {
           a {
-            $bgcol: lighten($brand-success, 35%);
+            $bgcol: lighten($success, 35%);
             background-color: $bgcol;
             box-shadow: inset -1px -1px 0 0 $bgcol;
             //color: #fff;
@@ -271,7 +271,7 @@ fieldset {
           }
           &.today {
             a {
-              color: lighten($brand-success, 35%);
+              color: lighten($success, 35%);
             }
           }
         }

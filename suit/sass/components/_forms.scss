@@ -252,7 +252,7 @@ fieldset {
     }
     h2 {
       display: block;
-      font-size: $font-size-h5;
+      font-size: $h5-font-size;
       font-weight: normal;
       margin: 0;
       padding: .5rem 1rem;
@@ -304,10 +304,10 @@ fieldset {
             margin: 0;
             padding-left: 1.5rem;
             font-size: $font-size-xs;
-            color: $brand-danger;
+            color: $danger;
           }
           .errorlist + input {
-            border-color: $brand-danger;
+            border-color: $danger;
           }
         }
       }
